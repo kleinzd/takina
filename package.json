@@ -1,0 +1,24 @@
+{
+  "name": "takina-bot",
+  "version": "1.0.0",
+  "description": "Discord server bot, named after Takina Inoue from Lycoris Recoil",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "serve": "nodemon src/index.ts"
+  },
+  "repository": "https://github.com/kleinzd/takina.git",
+  "author": "KleinzDev <kleinzmail@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4"
+  }
+}
